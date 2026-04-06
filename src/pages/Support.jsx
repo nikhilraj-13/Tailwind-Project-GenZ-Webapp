@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaSearch, FaHeadset, FaUsers, FaBook } from 'react-icons/fa';
-import Footer from '../components/Footer.jsx';
 import { FaCircleQuestion } from 'react-icons/fa6';
 
 export default function Support() {
@@ -315,8 +314,6 @@ export default function Support() {
                 </div>
 
             </div>
-
-            <Footer />
         </>
     );
 }

@@ -30,12 +30,12 @@ export default function Nav() {
                 </div>
 
                 {/* Button */}
-                <div className="hidden sm:block">
+                <Link to="/contact" className="hidden sm:block">
                     <button className=" flex items-center gap-2 px-4 py-4 bg-amber-500 rounded-full">
                         Contact us
                         <FaArrowRightLong />
                     </button>
-                </div>
+                </Link>
 
                 {/* Mobile responsive bar */}
                 {

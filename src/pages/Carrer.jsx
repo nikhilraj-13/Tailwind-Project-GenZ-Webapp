@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Footer from '../components/Footer'
 
 const openings = [
   {
@@ -170,8 +169,6 @@ export default function Career() {
           </button>
         </div>
       </section>
-
-      <Footer />
     </div>
   )
 }

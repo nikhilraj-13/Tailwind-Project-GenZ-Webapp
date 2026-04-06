@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../components/Footer.jsx'
 
 const stats = [
   { value: '5+', label: 'Years of Experience' },
@@ -170,9 +169,6 @@ export default function About() {
           </button>
         </div>
       </section>
-
-      <Footer/>
-
     </div>
   )
 }
