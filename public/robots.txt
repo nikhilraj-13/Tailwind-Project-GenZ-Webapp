@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tailwind-project-gen-z-webapp.vercel.app/sitemap.xml
