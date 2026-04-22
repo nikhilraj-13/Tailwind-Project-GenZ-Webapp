@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../components/Contact.jsx'
 import ContactDetails from '../components/ContactDetails.jsx'
+import { Helmet } from "react-helmet";
 
 export default function ContactUs() {
   return (

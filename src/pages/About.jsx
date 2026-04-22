@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from "react-helmet";
 
 const stats = [
   { value: '5+', label: 'Years of Experience' },
@@ -38,7 +39,14 @@ const team = [
 
 export default function About() {
   return (
-    <div className='bg-white text-gray-800 min-h-screen'>
+    <>
+    <Helmet>
+        <title>About - Gen-Z</title>
+        <meta name="What does our website provides" content="Learn about Gen-Z and our mission" />
+      </Helmet>
+      <div className='bg-white text-gray-800 min-h-screen'>
+      {/* Title of Page */}
+      
       {/* Hero Section */}
       <section className='pt-40 pb-20 px-6 sm:px-12 md:px-24 lg:px-40 text-center bg-amber-50'>
         <span className="inline-block bg-amber-100 text-amber-500 text-sm font-semibold px-4 py-1 rounded-full mb-6 tracking-wide uppercase">
@@ -170,5 +178,7 @@ export default function About() {
         </div>
       </section>
     </div>
+    </>
+    
   )
 }

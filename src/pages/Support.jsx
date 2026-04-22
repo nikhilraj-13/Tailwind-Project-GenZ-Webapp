@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaSearch, FaHeadset, FaUsers, FaBook } from 'react-icons/fa';
 import { FaCircleQuestion } from 'react-icons/fa6';
+import { Helmet } from "react-helmet";
 
 export default function Support() {
     const [formSubmitted, setFormSubmitted] = useState(false);

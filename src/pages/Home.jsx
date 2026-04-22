@@ -4,6 +4,7 @@ import Partner from "../components/Partner.jsx"
 import Container from "../components/Container.jsx"
 import Team  from "../components/Team.jsx"
 import Work  from "../components/Work.jsx"
+import { Helmet } from "react-helmet";
 
 export default function Home() {
   return (
